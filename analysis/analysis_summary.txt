@@ -7,29 +7,29 @@ Measurement model: safe low-voltage DC loads using the same voltage, current, po
 
 Per-load results:
 - LED strip:
-  average voltage = 12.053 V
-  average current = 0.3413 A
-  average power   = 4.114 W
+  average voltage = 12.058 V
+  average current = 0.3566 A
+  average power   = 4.300 W
   peak power      = 4.447 W
-  total energy    = 370.31 J (0.1029 Wh)
+  total energy    = 64.72 J (0.0180 Wh)
 - power resistor:
-  average voltage = 9.024 V
-  average current = 0.1205 A
-  average power   = 1.087 W
-  peak power      = 1.220 W
-  total energy    = 97.85 J (0.0272 Wh)
+  average voltage = 9.037 V
+  average current = 0.1251 A
+  average power   = 1.131 W
+  peak power      = 1.221 W
+  total energy    = 17.01 J (0.0047 Wh)
 - pulsed load:
-  average voltage = 7.453 V
-  average current = 0.2131 A
-  average power   = 1.589 W
-  peak power      = 2.300 W
-  total energy    = 142.68 J (0.0396 Wh)
+  average voltage = 7.467 V
+  average current = 0.2550 A
+  average power   = 1.904 W
+  peak power      = 2.263 W
+  total energy    = 28.56 J (0.0079 Wh)
 - small DC fan:
-  average voltage = 5.084 V
-  average current = 0.2675 A
-  average power   = 1.360 W
-  peak power      = 1.898 W
-  total energy    = 121.87 J (0.0339 Wh)
+  average voltage = 5.095 V
+  average current = 0.3154 A
+  average power   = 1.607 W
+  peak power      = 1.866 W
+  total energy    = 23.85 J (0.0066 Wh)
 
 Highest average simulated power: LED strip.
 Main takeaway: the workflow converts sensor-style voltage and current samples into power, cumulative energy, and comparison plots that can be reused unchanged once real INA219 data is collected.

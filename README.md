@@ -93,10 +93,10 @@ Simulation run results:
 
 | Load | Average Power | Peak Power | Total Energy |
 | --- | ---: | ---: | ---: |
-| LED strip | 4.114 W | 4.447 W | 370.31 J / 0.1029 Wh |
-| small DC fan | 1.360 W | 1.898 W | 121.87 J / 0.0339 Wh |
-| power resistor | 1.087 W | 1.220 W | 97.85 J / 0.0272 Wh |
-| pulsed load | 1.589 W | 2.300 W | 142.68 J / 0.0396 Wh |
+| LED strip | 4.300 W | 4.447 W | 64.72 J / 0.0180 Wh |
+| small DC fan | 1.607 W | 1.866 W | 23.85 J / 0.0066 Wh |
+| power resistor | 1.131 W | 1.221 W | 17.01 J / 0.0047 Wh |
+| pulsed load | 1.904 W | 2.263 W | 28.56 J / 0.0079 Wh |
 
 ## Current Status
 

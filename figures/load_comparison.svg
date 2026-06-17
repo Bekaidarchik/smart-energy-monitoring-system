@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+<title>Load Comparison</title>
+<desc>Average power and total energy for each simulated low-voltage load.</desc>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="36" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">Load Comparison</text>
+<text x="36" y="62" font-family="Arial, sans-serif" font-size="13" fill="#475569">Average power and total energy for each simulated low-voltage load.</text>
+<line x1="96" y1="396" x2="835" y2="396" stroke="#334155" stroke-width="1.5"/>
+<line x1="96" y1="96" x2="96" y2="396" stroke="#334155" stroke-width="1.5"/>
+<rect x="140" y="135.1" width="72" height="260.9" fill="#2563eb" rx="4"/>
+<text x="176.0" y="125.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#0f172a">4.30 W</text>
+<text x="176.0" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#0f172a">LED strip</text>
+<text x="176.0" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#64748b">0.018 Wh</text>
+<rect x="300" y="327.4" width="72" height="68.6" fill="#dc2626" rx="4"/>
+<text x="336.0" y="317.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#0f172a">1.13 W</text>
+<text x="336.0" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#0f172a">power resistor</text>
+<text x="336.0" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#64748b">0.005 Wh</text>
+<rect x="460" y="280.5" width="72" height="115.5" fill="#9333ea" rx="4"/>
+<text x="496.0" y="270.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#0f172a">1.90 W</text>
+<text x="496.0" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#0f172a">pulsed load</text>
+<text x="496.0" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#64748b">0.008 Wh</text>
+<rect x="620" y="298.5" width="72" height="97.5" fill="#16a34a" rx="4"/>
+<text x="656.0" y="288.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#0f172a">1.61 W</text>
+<text x="656.0" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#0f172a">small DC fan</text>
+<text x="656.0" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#64748b">0.007 Wh</text>
+<text x="86" y="246" transform="rotate(-90 86 246)" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#334155">Average power (W)</text>
+</svg>

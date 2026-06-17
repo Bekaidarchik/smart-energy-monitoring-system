@@ -50,9 +50,13 @@ python
 electrical-engineering
 ```
 
-## Current Publishing Constraint
+## Publishing Status
 
-The local project package is complete, but this environment does not currently
-provide Git, GitHub CLI, or a GitHub connector method for creating a brand-new
-repository. The included ZIP file can be uploaded through GitHub's web
-interface, or the folder can be committed from a machine with Git installed.
+The repository has been created at:
+
+```text
+https://github.com/Bekaidarchik/smart-energy-monitoring-system
+```
+
+Remaining portfolio step: pin this repository as the second pinned GitHub
+project after EcoStep from the GitHub profile customization UI.

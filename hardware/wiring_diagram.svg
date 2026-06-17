@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="560" viewBox="0 0 980 560" role="img" aria-labelledby="title desc">
+  <title>INA219 low-voltage energy monitor wiring diagram</title>
+  <desc>Arduino or ESP32 connected to an INA219 sensor, measuring a safe low-voltage DC load.</desc>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="42" y="48" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">Smart Energy Monitor Wiring</text>
+  <text x="42" y="76" font-family="Arial, sans-serif" font-size="14" fill="#475569">Low-voltage DC load only. Do not connect this circuit to mains electricity.</text>
+
+  <rect x="64" y="145" width="230" height="230" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="179" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1e3a8a">Arduino / ESP32</text>
+  <text x="92" y="225" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">5V or 3V3</text>
+  <text x="92" y="265" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">GND</text>
+  <text x="92" y="305" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">SDA</text>
+  <text x="92" y="345" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">SCL</text>
+
+  <rect x="390" y="132" width="220" height="260" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="500" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#14532d">INA219 Sensor</text>
+  <text x="420" y="225" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">VCC</text>
+  <text x="420" y="265" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">GND</text>
+  <text x="420" y="305" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">SDA</text>
+  <text x="420" y="345" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">SCL</text>
+  <text x="535" y="224" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">VIN+</text>
+  <text x="535" y="330" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">VIN-</text>
+
+  <rect x="726" y="120" width="170" height="84" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="811" y="154" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#78350f">DC Supply</text>
+  <text x="768" y="184" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">+ 5-12 V</text>
+  <text x="838" y="184" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">GND</text>
+
+  <rect x="718" y="310" width="188" height="94" rx="8" fill="#fff1f2" stroke="#dc2626" stroke-width="2"/>
+  <text x="812" y="346" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#7f1d1d">Low-Voltage Load</text>
+  <text x="756" y="378" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">LED / fan / resistor</text>
+
+  <line x1="294" y1="220" x2="390" y2="220" stroke="#ef4444" stroke-width="3"/>
+  <line x1="294" y1="260" x2="390" y2="260" stroke="#111827" stroke-width="3"/>
+  <line x1="294" y1="300" x2="390" y2="300" stroke="#2563eb" stroke-width="3"/>
+  <line x1="294" y1="340" x2="390" y2="340" stroke="#9333ea" stroke-width="3"/>
+
+  <line x1="726" y1="180" x2="610" y2="220" stroke="#ef4444" stroke-width="4"/>
+  <line x1="610" y1="330" x2="718" y2="356" stroke="#ef4444" stroke-width="4"/>
+  <line x1="906" y1="356" x2="906" y2="452" stroke="#111827" stroke-width="4"/>
+  <line x1="906" y1="452" x2="812" y2="452" stroke="#111827" stroke-width="4"/>
+  <line x1="812" y1="452" x2="812" y2="204" stroke="#111827" stroke-width="4"/>
+
+  <circle cx="294" cy="220" r="4" fill="#ef4444"/>
+  <circle cx="294" cy="260" r="4" fill="#111827"/>
+  <circle cx="294" cy="300" r="4" fill="#2563eb"/>
+  <circle cx="294" cy="340" r="4" fill="#9333ea"/>
+  <circle cx="610" cy="220" r="4" fill="#ef4444"/>
+  <circle cx="610" cy="330" r="4" fill="#ef4444"/>
+
+  <text x="318" y="211" font-family="Arial, sans-serif" font-size="12" fill="#b91c1c">VCC</text>
+  <text x="318" y="251" font-family="Arial, sans-serif" font-size="12" fill="#111827">GND</text>
+  <text x="318" y="291" font-family="Arial, sans-serif" font-size="12" fill="#1d4ed8">SDA</text>
+  <text x="318" y="331" font-family="Arial, sans-serif" font-size="12" fill="#6b21a8">SCL</text>
+  <text x="638" y="208" font-family="Arial, sans-serif" font-size="12" fill="#b91c1c">Supply positive through sensor</text>
+  <text x="632" y="346" font-family="Arial, sans-serif" font-size="12" fill="#b91c1c">Sensor output to load positive</text>
+  <text x="724" y="474" font-family="Arial, sans-serif" font-size="12" fill="#111827">Common ground return</text>
+</svg>
+

@@ -1,0 +1,65 @@
+timestamp_s,voltage_v,current_a,power_w,energy_j,load_type,measurement_status,notes
+0.0,12.064,0.3381,4.0786,0.000,LED strip,simulated,steady low-voltage lighting load
+1.0,12.020,0.3457,4.1551,4.155,LED strip,simulated,steady low-voltage lighting load
+2.0,12.027,0.3436,4.1325,8.288,LED strip,simulated,steady low-voltage lighting load
+3.0,12.046,0.3549,4.2750,12.563,LED strip,simulated,steady low-voltage lighting load
+4.0,12.027,0.3467,4.1692,16.732,LED strip,simulated,steady low-voltage lighting load
+5.0,12.081,0.3530,4.2646,20.996,LED strip,simulated,steady low-voltage lighting load
+6.0,12.038,0.3528,4.2473,25.244,LED strip,simulated,steady low-voltage lighting load
+7.0,12.033,0.3571,4.2974,29.541,LED strip,simulated,steady low-voltage lighting load
+8.0,12.096,0.3647,4.4114,33.953,LED strip,simulated,steady low-voltage lighting load
+9.0,12.100,0.3574,4.3247,38.277,LED strip,simulated,steady low-voltage lighting load
+10.0,12.071,0.3589,4.3326,42.610,LED strip,simulated,steady low-voltage lighting load
+11.0,12.059,0.3670,4.4254,47.035,LED strip,simulated,steady low-voltage lighting load
+12.0,12.088,0.3634,4.3923,51.428,LED strip,simulated,steady low-voltage lighting load
+13.0,12.061,0.3687,4.4468,55.874,LED strip,simulated,steady low-voltage lighting load
+14.0,12.040,0.3680,4.4311,60.305,LED strip,simulated,steady low-voltage lighting load
+15.0,12.077,0.3656,4.4149,64.720,LED strip,simulated,steady low-voltage lighting load
+0.0,5.106,0.3654,1.8656,0.000,small DC fan,simulated,startup surge then settling fan load
+1.0,5.072,0.3494,1.7723,1.772,small DC fan,simulated,startup surge then settling fan load
+2.0,5.056,0.3425,1.7314,3.504,small DC fan,simulated,startup surge then settling fan load
+3.0,5.057,0.3261,1.6492,5.153,small DC fan,simulated,startup surge then settling fan load
+4.0,5.097,0.3210,1.6360,6.789,small DC fan,simulated,startup surge then settling fan load
+5.0,5.107,0.3121,1.5941,8.383,small DC fan,simulated,startup surge then settling fan load
+6.0,5.069,0.3057,1.5496,9.933,small DC fan,simulated,startup surge then settling fan load
+7.0,5.106,0.3134,1.6000,11.533,small DC fan,simulated,startup surge then settling fan load
+8.0,5.118,0.3090,1.5813,13.114,small DC fan,simulated,startup surge then settling fan load
+9.0,5.065,0.3089,1.5643,14.678,small DC fan,simulated,startup surge then settling fan load
+10.0,5.110,0.3052,1.5594,16.238,small DC fan,simulated,startup surge then settling fan load
+11.0,5.129,0.3078,1.5785,17.816,small DC fan,simulated,startup surge then settling fan load
+12.0,5.088,0.2950,1.5007,19.317,small DC fan,simulated,startup surge then settling fan load
+13.0,5.081,0.2978,1.5133,20.830,small DC fan,simulated,startup surge then settling fan load
+14.0,5.132,0.2916,1.4966,22.327,small DC fan,simulated,startup surge then settling fan load
+15.0,5.134,0.2957,1.5179,23.845,small DC fan,simulated,startup surge then settling fan load
+0.0,9.026,0.1191,1.0747,0.000,power resistor,simulated,stable resistive test load
+1.0,9.015,0.1224,1.1033,1.103,power resistor,simulated,stable resistive test load
+2.0,9.028,0.1214,1.0957,2.199,power resistor,simulated,stable resistive test load
+3.0,9.053,0.1205,1.0909,3.290,power resistor,simulated,stable resistive test load
+4.0,9.024,0.1253,1.1302,4.420,power resistor,simulated,stable resistive test load
+5.0,9.049,0.1223,1.1071,5.527,power resistor,simulated,stable resistive test load
+6.0,9.045,0.1210,1.0948,6.622,power resistor,simulated,stable resistive test load
+7.0,9.010,0.1246,1.1231,7.745,power resistor,simulated,stable resistive test load
+8.0,9.035,0.1236,1.1165,8.862,power resistor,simulated,stable resistive test load
+9.0,9.032,0.1303,1.1769,10.038,power resistor,simulated,stable resistive test load
+10.0,9.069,0.1240,1.1244,11.163,power resistor,simulated,stable resistive test load
+11.0,9.010,0.1289,1.1613,12.324,power resistor,simulated,stable resistive test load
+12.0,9.049,0.1291,1.1685,13.493,power resistor,simulated,stable resistive test load
+13.0,9.063,0.1294,1.1731,14.666,power resistor,simulated,stable resistive test load
+14.0,9.026,0.1353,1.2216,15.887,power resistor,simulated,stable resistive test load
+15.0,9.052,0.1245,1.1272,17.015,power resistor,simulated,stable resistive test load
+0.0,7.477,0.2559,1.9138,0.000,pulsed load,simulated,simulated IoT-style duty cycle
+1.0,7.443,0.2645,1.9686,1.969,pulsed load,simulated,simulated IoT-style duty cycle
+2.0,7.426,0.2722,2.0215,3.990,pulsed load,simulated,simulated IoT-style duty cycle
+3.0,7.475,0.2719,2.0321,6.022,pulsed load,simulated,simulated IoT-style duty cycle
+4.0,7.464,0.2843,2.1219,8.144,pulsed load,simulated,simulated IoT-style duty cycle
+5.0,7.474,0.2853,2.1324,10.276,pulsed load,simulated,simulated IoT-style duty cycle
+6.0,7.476,0.2913,2.1776,12.454,pulsed load,simulated,simulated IoT-style duty cycle
+7.0,7.488,0.3022,2.2626,14.717,pulsed load,simulated,simulated IoT-style duty cycle
+8.0,7.457,0.3029,2.2590,16.976,pulsed load,simulated,simulated IoT-style duty cycle
+9.0,7.450,0.3011,2.2436,19.219,pulsed load,simulated,simulated IoT-style duty cycle
+10.0,7.498,0.2106,1.5793,20.798,pulsed load,simulated,simulated IoT-style duty cycle
+11.0,7.460,0.2055,1.5333,22.332,pulsed load,simulated,simulated IoT-style duty cycle
+12.0,7.453,0.2043,1.5230,23.855,pulsed load,simulated,simulated IoT-style duty cycle
+13.0,7.486,0.2119,1.5866,25.441,pulsed load,simulated,simulated IoT-style duty cycle
+14.0,7.486,0.2078,1.5554,26.997,pulsed load,simulated,simulated IoT-style duty cycle
+15.0,7.464,0.2091,1.5604,28.557,pulsed load,simulated,simulated IoT-style duty cycle

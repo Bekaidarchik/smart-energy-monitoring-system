@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+<title>Power Over Time</title>
+<desc>Calculated power from voltage and current for each low-voltage load.</desc>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="36" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">Power Over Time</text>
+<text x="36" y="62" font-family="Arial, sans-serif" font-size="13" fill="#475569">Calculated power from voltage and current for each low-voltage load.</text>
+<line x1="82" y1="92.0" x2="840" y2="92.0" stroke="#cbd5e1" stroke-width="1"/>
+<line x1="82" y1="172.0" x2="840" y2="172.0" stroke="#cbd5e1" stroke-width="1"/>
+<line x1="82" y1="252.0" x2="840" y2="252.0" stroke="#cbd5e1" stroke-width="1"/>
+<line x1="82" y1="332.0" x2="840" y2="332.0" stroke="#cbd5e1" stroke-width="1"/>
+<line x1="82" y1="412.0" x2="840" y2="412.0" stroke="#cbd5e1" stroke-width="1"/>
+<line x1="82" y1="412" x2="840" y2="412" stroke="#334155" stroke-width="1.5"/>
+<line x1="82" y1="92" x2="82" y2="412" stroke="#334155" stroke-width="1.5"/>
+<text x="72" y="252.0" transform="rotate(-90 72 252.0)" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#334155">Power (W)</text>
+<text x="461.0" y="448" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#334155">Time (seconds)</text>
+<polyline points="82.0,389.9 132.5,332.6 183.1,349.7 233.6,242.8 284.1,321.7 334.7,250.7 385.2,263.9 435.7,226.4 486.3,140.7 536.8,205.8 587.3,200.0 637.9,130.0 688.4,154.6 738.9,114.1 789.5,126.2 840.0,137.7" fill="none" stroke="#2563eb" stroke-width="2.8"/>
+<rect x="90" y="446" width="18" height="4" rx="2" fill="#2563eb"/>
+<text x="116" y="454" font-family="Arial, sans-serif" font-size="13" fill="#0f172a">LED strip</text>
+<polyline points="82.0,389.9 132.5,336.3 183.1,350.3 233.6,359.9 284.1,284.8 334.7,330.1 385.2,353.3 435.7,300.1 486.3,311.2 536.8,197.7 587.3,296.3 637.9,226.9 688.4,214.1 738.9,205.4 789.5,114.1 840.0,291.8" fill="none" stroke="#dc2626" stroke-width="2.8"/>
+<rect x="280" y="446" width="18" height="4" rx="2" fill="#dc2626"/>
+<text x="306" y="454" font-family="Arial, sans-serif" font-size="13" fill="#0f172a">power resistor</text>
+<polyline points="82.0,244.3 132.5,223.7 183.1,204.1 233.6,199.9 284.1,166.6 334.7,162.7 385.2,145.8 435.7,114.1 486.3,115.6 536.8,121.4 587.3,368.9 637.9,386.1 688.4,389.9 738.9,366.2 789.5,377.6 840.0,375.7" fill="none" stroke="#9333ea" stroke-width="2.8"/>
+<rect x="470" y="446" width="18" height="4" rx="2" fill="#9333ea"/>
+<text x="496" y="454" font-family="Arial, sans-serif" font-size="13" fill="#0f172a">pulsed load</text>
+<polyline points="82.0,114.1 132.5,183.9 183.1,214.2 233.6,275.9 284.1,285.6 334.7,317.2 385.2,350.3 435.7,312.4 486.3,326.4 536.8,339.0 587.3,342.8 637.9,328.5 688.4,386.6 738.9,377.5 789.5,389.9 840.0,373.8" fill="none" stroke="#16a34a" stroke-width="2.8"/>
+<rect x="660" y="446" width="18" height="4" rx="2" fill="#16a34a"/>
+<text x="686" y="454" font-family="Arial, sans-serif" font-size="13" fill="#0f172a">small DC fan</text>
+</svg>
