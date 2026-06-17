@@ -3,6 +3,12 @@
 Low-cost Arduino/ESP32 energy monitoring prototype for voltage, current, power
 logging, and Python-based energy-use analysis.
 
+## Portfolio Summary
+
+- Built a low-voltage energy monitoring workflow that records voltage/current data, calculates power and cumulative energy, and generates reviewer-ready plots.
+- Used Arduino/ESP32 planning, INA219 sensor documentation, Python CSV analysis, SVG figures, and safety-aware hardware notes.
+- Demonstrated the full analysis pipeline with simulated data while clearly marking the next validation step: real INA219 readings and prototype photos.
+
 ## Why This Project Matters
 
 Energy monitoring is a practical Electrical and Computer Engineering project
@@ -102,6 +108,10 @@ Simulation run results:
 
 Simulation-first version complete. The repository is ready for hardware data
 once an Arduino/ESP32, INA219 sensor, and low-voltage load are available.
+
+## Real Data and Photo Next Step
+
+The main next portfolio upgrade is to capture real INA219 readings from one or more low-voltage loads and add prototype photos of the wiring. A strong evidence package would include raw serial CSV output, cleaned CSV output, photos of the Arduino/ESP32 + INA219 setup, regenerated plots, and a short comparison between simulated and measured readings. The checklist is tracked in `docs/real_hardware_data_next_steps.md`.
 
 ## Limitations
 
