@@ -1,0 +1,35 @@
+Smart Energy Monitoring System - Analysis Summary
+======================================================
+
+Dataset status: simulation-first. No real hardware measurements are claimed.
+Sampling interval: 1 second.
+Measurement model: safe low-voltage DC loads using the same voltage, current, power, and energy calculations planned for an INA219 hardware prototype.
+
+Per-load results:
+- LED strip:
+  average voltage = 12.053 V
+  average current = 0.3413 A
+  average power   = 4.114 W
+  peak power      = 4.447 W
+  total energy    = 370.31 J (0.1029 Wh)
+- power resistor:
+  average voltage = 9.024 V
+  average current = 0.1205 A
+  average power   = 1.087 W
+  peak power      = 1.220 W
+  total energy    = 97.85 J (0.0272 Wh)
+- pulsed load:
+  average voltage = 7.453 V
+  average current = 0.2131 A
+  average power   = 1.589 W
+  peak power      = 2.300 W
+  total energy    = 142.68 J (0.0396 Wh)
+- small DC fan:
+  average voltage = 5.084 V
+  average current = 0.2675 A
+  average power   = 1.360 W
+  peak power      = 1.898 W
+  total energy    = 121.87 J (0.0339 Wh)
+
+Highest average simulated power: LED strip.
+Main takeaway: the workflow converts sensor-style voltage and current samples into power, cumulative energy, and comparison plots that can be reused unchanged once real INA219 data is collected.
